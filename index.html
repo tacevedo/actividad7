@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <title>Actividad 4 - Bootstrap</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/latam_logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#equipo">Equipo</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header row">
+        <div class="contenido-header col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+          <h1>Comienza una nueva vida y únete al mundo tecnológico</h1>
+          <button type="button" name="button" class="btn-azul">Comienza acá</button>
+          <button type="button" name="button" class="btn-verde">Más info</button>
+          <h3>Hay una escasez gigante de desarrolladores en el mundo y más aún en latinoamérica, ses necesitan más desarrolladores y Tú puedes ser uno!</h3>
+        </div>
+      </section>
+
+      <section class="seccion-gente row">
+        <div id="myCarousel" class="carousel slide col-md-6 col-md-offset-3 col-sm-12" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/people.png">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>El bootcamp de programación más grande de latinoamérica</h2>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/desafiolatam-cover.jpg">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Comieza una nueva vida y &uacutenete al mundo tecnológico</h2>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/comunidad.jpg">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Se parte de nuestra comunidad</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </section>
+
+      <section class="seccion-texto row">
+        <div class="contenido-texto col-md-6 col-md-offset-3 col-sm-12">
+          <h2>Solicita Información e Inscríbete</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" name="button" class="btn-azul">Inscríbete!</button>
+          <p>Vive la experiencia desafío Latam</p>
+        </div>
+      </section>
+
+      <section id="contacto" class="row">
+
+          <div class="col-contacto col-md-offset-2 col-md-2 col-sm-6">
+            <h2>Contacto</h2>
+            <strong>Desafío  Latam</strong>
+            <p>Ezquias Allende 2362</p>
+            <p class="padb-20">P: +56 92962515</p>
+            <a class="mail">inscripciones@desafiolatam.com</a>
+          </div>
+          <div class="col-suscribete col-md-offset-2 col-md-2 col-sm-6">
+            <h2>Suscríbete</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <input type="text" placeholder="Ingrese su email..."> <button class="btn-blanco">Enviar</button>
+          </div>
+
+
+      </section>
+
+      <footer>
+        <p>DESAFÍOLATAM 2016 - CURSO FULLSTACK G12</p>
+      </footer>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
